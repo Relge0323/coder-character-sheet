@@ -11,7 +11,26 @@
 
     <h1>Coder Character Sheet</h1>
     <div id="character-info">
-        <!-- add form fields and xp trackers here -->
+        <form id="character-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="class">Class:</label>
+            <select id="class" required>
+                <option value="">Select Class</option>
+                <option value="Fighter">Fighter</option>
+                <option value="Wizard">Wizard</option>
+                <option value="Rogue">Rogue</option>
+                <option value="Cleric">Cleric</option>
+            </select>
+
+            <button type="submit">Create Character</button>
+        </form>
+
+        <div id="character-display" style="margin-top:20px;">
+            <button id="add-xp">Add 10 XP</button>
+            <p id="level">Level: 1</p>
+        </div>
     </div>
     
 </body>
