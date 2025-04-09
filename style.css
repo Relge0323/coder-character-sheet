@@ -1,0 +1,28 @@
+/* resets */
+header, nav, main, footer {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#character-info {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
